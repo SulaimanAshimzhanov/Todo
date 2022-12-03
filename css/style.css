@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(22, 22, 22);
+    
+}
+
+header {
+    background: rgba(0, 0, 0, .8);
+    box-shadow: 0 5px 20px white;
+}
+
+.container {
+    width: 1388px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h1 {
+    color: white;
+}
+
+.navbar div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar div h2 {
+    color: white;
+}
+
+.navbar div button {
+    padding: 15px 0;
+    width: 100px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(199, 74, 74);
+    color: white;
+    font-size: 20px;
+    box-shadow: 0 0 5px red;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.navbar div button:hover {
+    background-color: aqua;
+    color: rgb(11, 72, 90);
+    box-shadow: 0 0 5px aqua;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: rgba(160, 170, 180, 0.4);
+    border-radius: 20px;
+    width: 30%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.card h2 {
+    text-shadow: 5px 3px 10px aquamarine;
+}
+
+.card form input {
+    width: 80%;
+    color: gray;
+    padding: 15px 5px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: azure;
+    border: 1px solid rgb(50, 165, 165);
+    outline: none;
+}
+
+.card form button {
+    width: 40%;
+    padding: 15px 0;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(31, 189, 189);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card form button:hover {
+    background-color: aquamarine;
+    color: black;
+    box-shadow: 0 0 5px aquamarine;
+}
+
+.error {
+    color: red;
+    margin: 5px 0;
+    text-shadow: 5px 3px 10px black;
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    row-gap: 20px;
+}
+
+.todo_card {
+    background-color: rgba(160, 170, 180, 0.4);
+    width: 31%;
+    height: 355px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+    padding: 10px;
+    text-align: center;
+}
+
+.todo_card img {
+    height: 180px;
+    object-fit: cover;
+    box-shadow: 5px 5px  30px black;
+    width: 90%;
+}
+
+.inline_buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inline_buttons button {
+    width: 48%;
+    padding: 15px 0;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    transition: .5s;
+}
+
+.inline_buttons button:hover {
+    color: black;
+}
+
+.inline_buttons button:nth-child(1) {
+    background-color: rgb(22, 77, 139);
+}
+
+
+.inline_buttons button:nth-child(2) {
+    background-color: rgb(228, 81, 81);
+}
